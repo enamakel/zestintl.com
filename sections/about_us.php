@@ -82,7 +82,8 @@
 					: 1 && $text_and_skills='text_and_skills' )
 				) {
 				case 3:
-					$colCount = 4;
+					// $colCount = 4;
+					$colCount = 6;
 					break;
 				case 2:
 					$colCount = 6;
@@ -134,7 +135,7 @@
 
 			/* COLUMN 1 - SKILS */
 
-			if ( $there_is_skills!='' ) :
+			if ( $there_is_skills!='' && FALSE) :
 			
 		?>
 		<div class="col-lg-<?php echo $colCount; ?> col-md-<?php echo $colCount; ?> column zerif-rtl-skills ">
